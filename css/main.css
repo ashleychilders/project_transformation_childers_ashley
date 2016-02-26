@@ -48,7 +48,6 @@ a {
 }
 
 /* Header */
-
 #header-wrapper {
     overflow: hidden;
 }
@@ -61,7 +60,6 @@ a {
 }
 
 /* Logo */
-
 #logo {
     float: left;
     width: 300px;
@@ -102,7 +100,6 @@ a {
 }
 
 /* Splash */
-
 #splash {
     width: 960px;
     height: 300px;
@@ -110,7 +107,6 @@ a {
 }
 
 /* Search */
-
 #search {
     float: right;
     width: 280px;
@@ -149,7 +145,6 @@ a {
 }
 
 /* Menu */
-
 #menu {
     float: right;
     width: 500px;
@@ -196,7 +191,6 @@ a {
 }
 
 /* Page */
-
 #page {
     width: 1000px;
     margin: 0 auto;
@@ -204,7 +198,6 @@ a {
 }
 
 /* Content */
-
 #content {
     float: right;
     width: 660px;
@@ -279,7 +272,6 @@ a {
 }
 
 /* Sidebar */
-
 #sidebar {
     float: left;
     width: 270px;
@@ -346,7 +338,6 @@ a {
 }
 
 /* Calendar */
-
 #calendar_wrap {
     padding: 20px;
 }
@@ -364,7 +355,6 @@ a {
 }
 
 /* Three Column Footer Content */
-
 #footer-content {
     overflow: hidden;
     width: 1000px;
@@ -389,7 +379,6 @@ a {
     font-size: 26px;
     color: #262626;
 }
-
 
 #footer-content #fbox1 {
     float: left;
@@ -424,7 +413,6 @@ a {
 }
 
 /* Footer */
-
 #footer {
     height: 140px;
     margin: 0 auto;
@@ -484,9 +472,12 @@ a {
 
 #banner {
     margin: 0px auto;
-    width: 1000px;
-    height: 340px;
     background: url(../img/img03.png) no-repeat left bottom;
+}
+
+#banner img {
+    width: 100%;
+    height: auto;
 }
 
 .list-style1 {
