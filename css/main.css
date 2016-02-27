@@ -102,15 +102,14 @@ a {
 
 #menu a {
     display: block;
-    line-height: 100px;
-    margin-right: 1px;
+    line-height: normal;
+    margin-right: .8em;
     padding: .8em 1em;
     text-decoration: none;
     text-align: center;
     text-shadow: 1px 1px 0px rgba(0,0,0,.2);
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-    font-size: 16px;
     font-weight: 300;
     border: none;
 }
