@@ -27,19 +27,22 @@ body {
 
 h1, h2, h3 {
     margin: 0;
-    padding: 0;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
     color: #222222;
 }
 
+h1 {
+    padding-top: .5em;
+}
+
 h2 {
-    font-size: 2.8em;
+    font-size: 2em;
 }
 
 h3 {
-    font-size: 1.6em;
+    font-size: 1.5em;
 }
 
 p, ul, ol {
@@ -54,44 +57,22 @@ a {
     background: #FFFFFF url(../img/img05.jpg) repeat;
 }
 
-.container {
-    margin: 0px auto;
-}
-
 /* Header */
 #header {
-    margin: 0 auto;
-    padding: 0px 0px;
+    width: 100%;
+    margin: auto;
+    padding: .2em;
 }
 
 /* Logo */
 #logo h1 {
-    font-size: 3.8em;
+    font-size: 3.5em;
 }
 
 #logo h1 a {
     color: #1F1F1F;
     text-shadow: 1px 1px 0px rgba(0,0,0,.2);
-}
-
-#logo p {
-    margin: 0;
-    padding: 0px 0 0 0px;
-    letter-spacing: -1px;
-    font: normal 18px Georgia, "Times New Roman", Times, serif;
-    font-style: italic;
-    color: #8E8E8E;
-}
-
-#logo p a {
-    color: #8E8E8E;
-}
-
-#logo a {
-    border: none;
-    background: none;
     text-decoration: none;
-    color: #000000;
 }
 
 /* Menu */
@@ -123,32 +104,30 @@ a {
     color: #FFFFFF;
 }
 
-@media all and (min-width 600px) {
-    #menu a {
+@media all and (min-width 300px) {
+    #menu li {
         width: 50%;
         display: inline-block;
     }
 }
 
 @media all and (min-width 850px) {
-    #menu a {
+    #menu li {
         display: inline-block;
         width: calc(100% / 3);
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 900px) {
     #content {
         float: right;
         margin-left: 1.5em;
         width: calc(100% / 3 * 2);
-        background-color: #ffffff;
     }
 
     #sidebar {
         float: left;
         width: calc(100% / 3 - 1.5em);
-        background-color: #ffffff;
     }
 }
 
