@@ -7,6 +7,7 @@ html {
 *:after {
     box-sizing: inherit;
 }
+
 .max-size {
     max-width: 1200px;
 }
@@ -278,47 +279,6 @@ a {
     text-align: right;
 }
 
-/* Three Column Footer Content */
-#footer-content {
-    overflow: hidden;
-    margin: 0px auto;
-    color: #D6E2F0;
-}
-
-#footer-content a {
-    color: #92A9B6;
-}
-
-#footer-bg {
-    overflow: hidden;
-    padding: 30px 0px;
-    background: #E8E8E8;
-}
-
-#footer-content h2 {
-    margin: 0px;
-    padding: 0px 0px 20px 0px;
-    letter-spacing: -1px;
-    font-size: 26px;
-    color: #262626;
-}
-
-#footer-content #fbox1 {
-    float: left;
-    width: 300px;
-    margin-right: 50px;
-}
-
-#footer-content #fbox2 {
-    float: left;
-    width: 300px;
-}
-
-#footer-content #fbox3 {
-    float: right;
-    width: 300px;
-}
-
 #column1 {
     float: left;
     width: 290px;
@@ -337,7 +297,6 @@ a {
 
 /* Footer */
 #footer {
-    height: 140px;
     margin: 0 auto;
     padding: 50px 0 15px 0;
     font-family: 'Abel', sans-serif;
