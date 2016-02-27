@@ -90,22 +90,22 @@ a {
 
 /* Menu */
 #menu ul {
-    font: 1.5em;
-    padding: 1em 1em;
+    padding: 1em;
     list-style: none;
     line-height: normal;
 }
 
 #menu a {
+    width: 100%;
     display: block;
     line-height: normal;
-    margin-right: .8em;
-    padding: .8em 1em;
+    padding: .5em 0;
     text-decoration: none;
     text-align: center;
     text-shadow: 1px 1px 0px rgba(0,0,0,.2);
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
+    font-size: 1.3em;
     font-weight: 300;
     border: none;
 }
@@ -117,9 +117,12 @@ a {
     color: #FFFFFF;
 }
 
-#menu .current_page_item a {
+@media all and (min-width 550px)
+    nav li {
+        width: 49%;
+        display: inline-block;
+    }
 }
-
 /* Page */
 #page {
     margin: 0 auto;
@@ -256,23 +259,6 @@ a {
     text-decoration: underline;
 }
 
-/* Calendar */
-#calendar_wrap {
-    padding: 20px;
-}
-
-#calendar table {
-    width: 100%;
-}
-
-#calendar tbody td {
-    text-align: center;
-}
-
-#calendar #next {
-    text-align: right;
-}
-
 #column1 {
     float: left;
     width: 290px;
@@ -292,7 +278,7 @@ a {
 /* Footer */
 #footer {
     margin: 0 auto;
-    padding: 50px 0 15px 0;
+    padding: 3em 0 1em 0;
     font-family: 'Abel', sans-serif;
 }
 
