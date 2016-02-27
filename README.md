@@ -1,7 +1,7 @@
 ## Link to Assignment on GitHub
 https://github.com/ashleychilders/project_transformation_childers_ashley
 
-## Link to Assignment web host
+## Link to Assignment on web host
 http://ashley-childers.com/project_transformation_childers_ashley/
 
 ### Resources
