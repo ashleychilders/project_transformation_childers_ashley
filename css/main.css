@@ -7,7 +7,9 @@ html {
 *:after {
     box-sizing: inherit;
 }
-
+.max-size {
+    max-width: 1200px;
+}
 body {
     margin: 0;
     padding: 0;
@@ -88,6 +90,11 @@ a {
 }
 
 /* Menu */
+#menu-wrapper {
+    width: 100%;
+    color: #1F1F1F;
+}
+
 #menu ul {
     padding: 10px;
     list-style: none;
@@ -106,7 +113,6 @@ a {
     font-family: 'Oswald', sans-serif;
     font-size: 16px;
     font-weight: 300;
-    color: #1F1F1F;
     border: none;
 }
 
@@ -352,47 +358,7 @@ a {
     color: #5E5E5E;
 }
 
-#marketing {
-    overflow: hidden;
-    margin-bottom: 30px;
-    padding: 20px 0px 10px 0px;
-    border-top: 1px solid #E7EBED;
-    border-bottom: 1px solid #E7EBED;
-}
-
-#marketing .text1 {
-    float: left;
-    margin: 0px;
-    padding: 0px;
-    letter-spacing: -2px;
-    text-transform: lowercase;
-    font-size: 34px;
-    color: #345E9B;
-}
-
-#marketing .text2 {
-    float: right;
-}
-
-#marketing .text2 a {
-    display: block;
-    width: 252px;
-    height: 38px;
-    padding: 15px 0px 0px 0px;
-    background: url(../img/img07.jpg) no-repeat left top;
-    letter-spacing: -2px;
-    text-align: center;
-    text-transform: lowercase;
-    font-size: 30px;
-    color: #FFFFFF;
-}
-
 #banner {
-    margin: 0px auto;
-    background: url(../img/img03.png) no-repeat left bottom;
-}
-
-#banner img {
     width: 100%;
     height: auto;
 }
